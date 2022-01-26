@@ -18,7 +18,7 @@ pub fn run() {
 
   println!("Contains 'World': {}", hello.contains("World"));
 
-  println!("Replace: {}", hello.replace("World", "there"));
+  println!("Replace: {}", hello.replace("World", "There"));
 
   // Loop through string by whitespace
   for word in hello.split_whitespace() {

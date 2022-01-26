@@ -9,6 +9,7 @@ pub fn run() {
   // }; // eq
   // let c_add = |n1: i32, n2: i32| { n1 + n2 + n3 }; // eq
   let c_add = |n1: i32, n2: i32| n1 + n2 + n3;
+
   println!("c add fn: {}", c_add(2, 3));
 }
 
